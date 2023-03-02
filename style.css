@@ -13,13 +13,13 @@ body{
 }
 
 .container{
-    width: 330px;
-    height: 480px;
+    width: 350px;
+    height: 530px;
     display: flex;
     justify-content: center;
     align-items: center;
     background:#2d2a37 ;
-    border-radius: 10px;
+    border-radius: 30px;
     margin: 0 auto;
     -webkit-box-shadow: 6px 4px 23px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 4px 23px 0px rgba(0,0,0,0.75);
@@ -45,26 +45,50 @@ input#resultado:focus{
     outline: none;
 }
 
-div#linha{
+.linha{
     display: flex;
     justify-content: space-between;
 }
 
-div#linha button{
+.linha button{
     padding: 20px;
-    margin: 3px 10px;
+    margin: 2.5px 10px;
     color: white;
     background: #322f3c;
     border: none;
     border-radius: 50%;
     font-weight: 800;
     -webkit-box-shadow: -5px 6px 9px -4px #00000065;
--moz-box-shadow: -5px 6px 9px -4px #00000065;
-box-shadow: -5px 6px 9px -4px #00000065;
-cursor: pointer;
+    -moz-box-shadow: -5px 6px 9px -4px #00000065;
+    box-shadow: -5px 6px 9px -4px #00000065;
+    cursor: pointer;
+    
+    font-size: 1em;
+    }
+
+    button#ce{
+        color: #704ab1;
+    }
+
+
+.linha button:hover{
+    background:#282630;
+    transition:  0.25s;
+}
+button#sinal{
+    background: #452874;
 }
 
-div#linha button:hover{
-    background:#282630;
+button#sinal:hover{
+    background:#5f389e;
+    transition:  0.25s;
+}
+
+button#lastsinal{
+    background-color:#7442ca ;
+}
+
+ button#lastsinal:hover{
+    background:#7d49d6;
     transition:  0.25s;
 }
