@@ -39,6 +39,10 @@ input#resultado{
     background: #2d2a37;
     padding: 30px 74px;
     border: none;
+    color: white;
+    text-align: center;
+    letter-spacing: 1em;
+    cursor: normal;
 }
 
 input#resultado:focus{
